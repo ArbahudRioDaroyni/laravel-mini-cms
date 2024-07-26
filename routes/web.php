@@ -27,8 +27,8 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 	Route::get('/topmenu/api', [TopMenuController::class, 'JSON'])->name('topmenu.api');
 	Route::resource('topmenu', TopMenuController::class);
 
-	Route::get('/office-address/api', [OfficeProfilesController::class, 'JSON'])->name('office-address.api');
-	Route::resource('office-address', OfficeProfilesController::class);
+	Route::get('/office-profiles/api', [OfficeProfilesController::class, 'JSON'])->name('office-profiles.api');
+	Route::resource('office-profiles', OfficeProfilesController::class);
 	
 	Route::get('/article-categories/api', [ArticleCategoryController::class, 'JSON'])->name('article-categories.api');
 	Route::resource('article-categories', ArticleCategoryController::class);

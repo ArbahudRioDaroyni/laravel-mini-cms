@@ -11,7 +11,7 @@
 					<h6>Daftar Profil Kantor</h6>
 				</div>
 				<div class="card-body p-4 pt-2">
-					<button onclick="modalCreate(`{{ route('office-address.store') }}`)" type="button" class="btn bg-gradient-success mb-3" data-bs-toggle="modal" data-bs-target="#modal-form">Tambah baru</button>
+					<button onclick="modalCreate(`{{ route('office-profiles.store') }}`)" type="button" class="btn bg-gradient-success mb-3" data-bs-toggle="modal" data-bs-target="#modal-form">Tambah baru</button>
 					<div class="table-responsive p-0">
 						<table class="table align-items-center mb-0 display" id="table">
 							<thead>
@@ -32,13 +32,13 @@
 			</div>
 		</div>
 	</div>
-	@includeIf('backend.office-address.modal-form')
+	@includeIf('backend.office-profiles.modal-form')
 @endsection
 
 @push('scripts')
 <script>
 	let table = new DataTable('#table', {
-		ajax: '{{ route('office-address.api') }}',
+		ajax: '{{ route('office-profiles.api') }}',
 		stateSave: true,
 		processing: true,
 		autoWidth: false,

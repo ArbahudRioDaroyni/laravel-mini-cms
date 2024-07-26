@@ -14,7 +14,7 @@ class OfficeProfilesController extends Controller
 	 */
 	public function index()
 	{
-		return view('backend.office-address.index');
+		return view('backend.office-profiles.index');
 	}
 
 	/**
@@ -124,8 +124,8 @@ class OfficeProfilesController extends Controller
 			->addIndexColumn()
 			->addColumn('actions', function ($response) {
 					return [
-						route('office-address.update', $response->id),
-						route('office-address.destroy', $response->id),
+						route('office-profiles.update', $response->id),
+						route('office-profiles.destroy', $response->id),
 					];
 			})
 			->rawColumns(['actions'])

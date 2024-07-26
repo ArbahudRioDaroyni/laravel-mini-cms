@@ -37,7 +37,7 @@
 				</a>
 			</li>
 			<li class="nav-item p-2">
-				<a class="nav-link gap-3" href="{{ route('office-address.index') }}">
+				<a class="nav-link gap-3" href="{{ route('office-profiles.index') }}">
 					<div class="w-15 d-flex align-items-center justify-content-center">
 						<i class="fa fa-bookmark-o text-info opacity-10"></i>
 					</div>
