@@ -1,0 +1,22 @@
+{
+  "name": "tema.co.id",
+  "version": "1.0.0",
+  "description": "Laravel custom content management system",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "axios": "^1.6.4",
+    "laravel-mix": "^6.0.49"
+  },
+  "scripts": {
+    "mix": "mix",
+    "mix-watch": "mix watch",
+    "mix-watch-poll": "mix watch -- --watch-options-poll=1000",
+    "mix-hot": "mix watch --hot",
+    "mix-prod": "npm run mix --production"
+  },
+  "author": "Arbahud Rio Daroyni",
+  "license": "ISC"
+}

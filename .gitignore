@@ -1,0 +1,48 @@
+# PHPUnit cache
+/.phpunit.cache
+
+# Node modules directory
+/node_modules
+
+# Build output and hot module replacement
+/public/build
+/public/hot
+
+# Storage and sensitive keys
+/public/storage
+/storage/*.key
+
+# Vendor directory for Composer
+/vendor
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# PHP Actor configuration
+.phpactor.json
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# Homestead configuration
+Homestead.json
+Homestead.yaml
+
+# Auth configuration
+auth.json
+
+# npm and yarn logs
+npm-debug.log
+yarn-error.log
+
+# Fleet configuration
+/.fleet
+
+# IDE configurations
+/.idea
+/.vscode
+
+# README text file
+README.txt
