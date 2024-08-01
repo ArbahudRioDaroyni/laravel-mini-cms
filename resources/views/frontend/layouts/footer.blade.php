@@ -26,16 +26,16 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<ul>
-									<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Beranda</a></li>
-									<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Tentang</a></li>
-									<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Berita</a></li>	
+									<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Beranda</a></li>
+									<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Tentang</a></li>
+									<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Berita</a></li>	
 								</ul>
 							</div>
 							<div class="col-lg-6 col-md-6 col-12">
 								<ul>
-									<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Karir</a></li>
-									<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Kontak</a></li>
-									<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
+									<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Karir</a></li>
+									<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Kontak</a></li>
+									<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
 								</ul>
 							</div>
 						</div>

@@ -14,9 +14,9 @@ class FrontendController extends Controller
     public function index()
     {
 			$menuTree = $this->getMenuTree();
-			$slider = SettingSlider::orderBy('position')->get();
-			$categoryNews = ArticleCategory::where('name', 'berita')->orWhere('name', 'semua')->get();
-			$categoryAnnouncement = ArticleCategory::where('name', 'pengumuman')->orWhere('name', 'semua')->get();
+			$slider = SettingSlider::orderBy('position')->where('status', 1)->get();
+			$categoryNews = ArticleCategory::where('name', 'berita')->orWhere('name', 'semua')->orWhere('status', 1)->get();
+			$categoryAnnouncement = ArticleCategory::where('name', 'pengumuman')->orWhere('name', 'semua')->orWhere('status', 1)->get();
 
 			if ($categoryNews && $categoryAnnouncement) {
 					$news = Article::whereIn('category_id', $categoryNews->pluck('id'))->get();

@@ -5,7 +5,7 @@
 	<div class="card shadow-lg">
 		<div class="card-header pb-0 pt-3 ">
 			<div class="float-start">
-				<h5 class="mt-3 mb-0">Argon Configurator</h5>
+				<h5 class="mt-3 mb-0">Admin Panel Configurator</h5>
 				<p>See our dashboard options.</p>
 			</div>
 			<div class="float-end mt-4">
@@ -55,8 +55,8 @@
 					<input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
 				</div>
 			</div>
-			<a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/argon-dashboard">Free Download</a>
-			<a class="btn btn-outline-dark w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/license/argon-dashboard">View documentation</a>
+			<!-- <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/argon-dashboard">Free Download</a>
+			<a class="btn btn-outline-dark w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/license/argon-dashboard">View documentation</a> -->
 		</div>
 	</div>
 </div>

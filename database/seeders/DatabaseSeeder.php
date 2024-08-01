@@ -31,19 +31,5 @@ class DatabaseSeeder extends Seeder
 				ArticleCategorySeeder::class,
 				ArticleSeeder::class
 		]);
-
-		TopMenu::create([
-			'menu' => 'West Java',
-			'menu_parent' => '',
-			'url' => '#',
-			'position' => 3
-		]);
-
-		TopMenu::create([
-			'menu' => 'Bandung',
-			'menu_parent' => 1,
-			'url' => 'http://127.0.0.1:8000/admin/topmenu/api',
-			'position' => 3
-		]);
 	}
 }
