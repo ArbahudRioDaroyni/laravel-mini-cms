@@ -5,7 +5,7 @@
 			<div class="col-lg-12">
 				<div class="section-title">
 					<h2>Berita Terkini</h2>
-					<img src="img/section-img.png" alt="#">
+					<img src="{{ asset('frontend') }}/img/section-img.png" alt="#">
 				</div>
 			</div>
 		</div>

@@ -5,7 +5,7 @@
 			<div class="col-lg-12">
 				<div class="section-title">
 					<h2>Jajaran Direksi PT. Trijaya Excel Madura</h2>
-					<img src="img/logotema.png" alt="#">
+					<img src="{{ asset('frontend') }}/img/logotema.png" alt="#">
 				</div>
 			</div>
 		</div>
@@ -14,7 +14,7 @@
 				<!-- Start Single features -->
 				<div class="single-features">
 					<div class="signle-icon">
-						<img src="img/s1.jpg" alt="#">
+						<img src="{{ asset('frontend') }}/img/s1.jpg" alt="#">
 						<br>Soehartono Priyanto
 					</div>
 					<h4>Direktur</h4>
@@ -26,7 +26,7 @@
 				<!-- Start Single features -->
 				<div class="single-features">
 					<div class="signle-icon">
-						<img src="img/s2.jpg" alt="#">
+						<img src="{{ asset('frontend') }}/img/s2.jpg" alt="#">
 						<br>Bernatha Brondiva
 					</div>
 					<h4>Komisaris Utama</h4>
@@ -38,7 +38,7 @@
 				<!-- Start Single features -->
 				<div class="single-features last">
 					<div class="signle-icon">
-						<img src="img/s3.jpg" alt="#">
+						<img src="{{ asset('frontend') }}/img/s3.jpg" alt="#">
 						<br>Jefry Anthonio
 					</div>
 					<h4>Komisaris</h4>

@@ -1,5 +1,5 @@
 <!-- Start Fun-facts -->
-<div id="fun-facts" class="fun-facts section overlay">
+<div id="fun-facts" class="fun-facts section overlay" style="background: url({{ asset('frontend') }}/img/fun-bg.jpg);">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-12">

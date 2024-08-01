@@ -5,7 +5,7 @@
 			<div class="col-lg-12">
 				<div class="section-title">
 					<h2>Hubungi Kami</h2>
-					<img src="img/section-img.png" alt="#">
+					<img src="{{ asset('frontend') }}/img/section-img.png" alt="#">
 					<p>Segera Bergabung bersama kami dengan mengisi form atau link dibawah ini :</p>
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12 ">
 				<div class="appointment-image">
-					<img src="img/contact-img.png" alt="#">
+					<img src="{{ asset('frontend') }}/img/contact-img.png" alt="#">
 				</div>
 			</div>
 		</div>
